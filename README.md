@@ -1,2 +1,2 @@
 # ad-skipper
-chrome extension to skip youtube ads
+chrome extension that skips youtube ads
