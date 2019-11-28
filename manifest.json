@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "ad skipper",
+    "version": "0.0.1",
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "broser_action": {
+        "default_popup": "index.html",
+        "default_title": "AD Skipper for youtube"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["contentScript.js"]
+        }
+    ]
+}
